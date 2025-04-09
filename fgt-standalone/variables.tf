@@ -76,13 +76,13 @@ variable "fgt_size" {
 variable "fgt_version" {
   description = "FortiGate version"
   type        = string
-  default     = "7.4.6"
+  default     = "7.4.7"
 }
 
 variable "fgt_vnet_cidr" {
   description = "FortiGate Vnet IP Space"
   type        = string
-  default     = "172.30.0.0/23"
+  default     = "172.30.0.0/24"
 }
 
 variable "ilb_ip" {
